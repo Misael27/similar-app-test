@@ -16,4 +16,5 @@ dependency-reduced-pom.xml
 README.html
 .idea
 *.iml
-.mvn
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
