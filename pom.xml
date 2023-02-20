@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.similarapp</groupId>
-	<artifactId>spring-boot-complete</artifactId>
+	<artifactId>similar-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-complete</name>
+	<name>similar-app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -23,6 +23,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<!-- tag::openapi[] -->
+		<dependency>
+		    <groupId>org.springdoc</groupId>
+		    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		    <version>2.0.0</version>
+		</dependency>
+		<!-- end::openapi[] -->
 
 		<!-- tag::actuator[] -->
 		<dependency>
